@@ -3,15 +3,13 @@
 }
 #maincontainer{
     background-color: rgb(252, 248, 248);
-    width: 13cm;
+    width: 15cm;
     height: 59vh;
-    display: inline-block;
-    
+    /* display: inline-block; */
 }
 section{
     margin-top: 5%;
-    margin-left: 200px;
-    
+    margin-left: 310px;
 }
 #img{
     width: 7cm;
@@ -20,32 +18,32 @@ section{
 #text1{
     color: rgb(42, 45, 47);
     position: absolute;
-    top: 10%;
-    margin-left: 70px;
+    top: 13%;
+    margin-left: 30px;
     margin-top: 15px;
     background-color: white;
 }
 #text2{
     color: rgb(42, 45, 47);
     position: absolute;
-    top: 17%;
-    margin-left: 70px;
+    top: 19%;
+    margin-left: 30px;
     margin-top: 15px;
     background-color: white;
 }
 #text3{
     color: rgb(42, 45, 47);
     position: absolute;
-    top: 20%;
-    margin-left: 70px;
+    top: 22%;
+    margin-left: 30px;
     margin-top: 15px;
     background-color: white;
 }
 #text4{
     color: rgb(42, 45, 47);
     position: absolute;
-    top: 23%;
-    margin-left: 70px;
+    top: 25%;
+    margin-left: 30px;
     margin-top: 15px;
     background-color: white;
 }
@@ -53,4 +51,48 @@ section{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     padding: 2px;
     margin: 0px;
+
+}
+#description{
+    color: rgb(42, 45, 47);
+    position: absolute;
+    top: 31%;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: white;
+}
+#amount{
+    color: rgb(4, 162, 62);
+    position: absolute;
+    top: 45%;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: larger;
+    font-weight: 500;
+    background-color: white;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#amount2{
+    color: rgba(22, 23, 22, 0.473);
+    position: absolute;
+    top: -70%;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: white;
+    font-size: smaller;
+    font-weight: 100;
+    text-decoration: line-through;
+}
+#button{
+    color: rgb(252, 253, 253);
+    position: absolute;
+    top: 55%;
+    width: 6cm;
+    border-radius: 0.4em;
+    border: none;
+    height: 5vh;
+    margin-left: 30px;
+    margin-top: 15px;
+    background-color: green;
 }
